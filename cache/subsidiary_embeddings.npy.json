@@ -1,0 +1,7 @@
+{
+  "model": "BAAI/bge-small-zh-v1.5",
+  "node_type": "subsidiary",
+  "count": 20938,
+  "dimension": 512,
+  "text_sha256": "97178c1128dc4d147956631b6d71dc670f4c0b2b6441d7b156fce90d0da053ff"
+}

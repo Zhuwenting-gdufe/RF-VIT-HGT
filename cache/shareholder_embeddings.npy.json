@@ -1,0 +1,7 @@
+{
+  "model": "BAAI/bge-small-zh-v1.5",
+  "node_type": "shareholder",
+  "count": 5743,
+  "dimension": 512,
+  "text_sha256": "54f47b0d3fb14a52fe1dc76de746d3588ebe3d9eae32c889687a4e16d1cc73ba"
+}

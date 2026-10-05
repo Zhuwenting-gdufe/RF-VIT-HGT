@@ -1,0 +1,45 @@
+{
+  "configuration": {
+    "input_dim": 1164,
+    "t2t_dim": 256,
+    "rf_dim": 908,
+    "hidden_widths": [
+      128,
+      32
+    ],
+    "activation": "ReLU",
+    "dropout": 0.6,
+    "layer_norm": false,
+    "rf_gain": 1.0,
+    "optimizer": "AdamW",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "batch_size": 32,
+    "cosine_schedule_T_max": 100,
+    "seed": 42,
+    "epochs": 6,
+    "threshold": 0.5
+  },
+  "company_counts": {
+    "train": 504,
+    "test": 177
+  },
+  "rf": {
+    "accuracy": 0.7853107344632768,
+    "recall": 0.4067796610169492,
+    "f1": 0.5581395348837209,
+    "auc": 0.7904337833955759
+  },
+  "t2t_vit": {
+    "accuracy": 0.7966101694915254,
+    "recall": 0.4915254237288136,
+    "f1": 0.6170212765957447,
+    "auc": 0.8112611318586613
+  },
+  "rf_t2t": {
+    "accuracy": 0.8022598870056498,
+    "recall": 0.5084745762711864,
+    "f1": 0.631578947368421,
+    "auc": 0.8095374892272336
+  }
+}
